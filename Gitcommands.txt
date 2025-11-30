@@ -5,5 +5,9 @@ git add .   # stage all untracked/modified files
 git commit -m "<message>"
 git restore <file>   #discard all changes in a file
 git restore --staged <file> #back to local/unstage; modifications remain
-git push origin modifications
-git init    #initialize a repo on github 
+git push origin main 
+git push -u origin main 
+git init    #initialize a repo on github
+git remote -v
+git branch
+git branch -M <name>    #rename a branch
