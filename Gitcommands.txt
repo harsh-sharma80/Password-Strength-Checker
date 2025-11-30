@@ -1,0 +1,9 @@
+git clone <github repo link>
+git status
+git add <filename>
+git add .   # stage all untracked/modified files
+git commit -m "<message>"
+git restore <file>   #discard all changes in a file
+git restore --staged <file> #back to local/unstage; modifications remain
+git push origin modifications
+git init    #initialize a repo on github 
